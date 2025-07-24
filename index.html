@@ -27,16 +27,16 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <!-- nav section start -->
         <nav>
             <div class="flex justify-between items-center lg:mx-[150px] mx-[16px] lg:mt-[30px] mt-[28px] mb-[120px]">
                 <img class="w-[63px] h-[38px] md:w-auto md:h-auto" src="./assets/logo.png" alt="">
                 <div class="flex gap-8">
                     <ul class="md:flex gap-5 hidden">
-                        <li class="text-black font-bold"><a href="">Home</a></li>
-                        <li class="text-[#8987A1]"><a href="">Shop</a></li>
-                        <li class="text-[#8987A1]"><a href="">About us </a></li>
+                        <li class="text-black font-bold"><a href="#home">Home</a></li>
+                        <li class="text-[#8987A1]"><a href="#shop">Shop</a></li>
+                        <li class="text-[#8987A1]"><a href="#about-us">About us </a></li>
                     </ul>
                     <div class="flex items-center justify-center gap-2">
                         <i class="fa-solid fa-cart-shopping"></i>
@@ -62,7 +62,7 @@
     </header>
     <main>
         <!-- grid and card section -->
-        <section class="text-center lg:mx-[150px] mx-[14px] lg:mb-[210px] mb-[65px] ">
+        <section id="shop" class="text-center lg:mx-[150px] mx-[14px] lg:mb-[210px] mb-[65px] ">
             <div class="lg:mb-[49px] mb-[28px]">
                 <h2 class="lg:text-[50px] text-[24px] font-bold noto-serif"> <span class="text-[#E95A08]">Our</span> Plants </h2>
                 <p class="lg:text-[22px] text-[#7A7C7F] lg:mx-[126px] mx-[14px] mt-[16px] inter">Indulge your senses with the beauty and
@@ -252,14 +252,14 @@
                 <div class=" brightness-70  bg-no-repeat lg:w-[753px]  lg:h-[423px] h-[172px] rounded-[10px] ">
                     <img class="rounded-xl w-full " src="./assets/deal-zabo.png" alt="">
                 </div>
-                <div class="text-center absolute lg:top-40 top-22 text-white lg:left-50 left-25">
+                <div class="text-center absolute lg:top-40 top-22 text-white lg:left-50 left-22">
                     <h1 class="lg:text-[40px] text-[20px] font-bold noto-serif ">25% Off | Zabo Plant</h1>
                     <u><a class="lg:text-[28px] text-[16px] inter" href="">Shop Now</a></u>
                 </div>
             </div>
         </section>
 
-        <section class="bg-[url(./assets/news-letter-bg.png)] lg:h-[533px] bg-cover h-[393px] h">
+        <section id="faq" class="bg-[url(./assets/news-letter-bg.png)] lg:h-[533px] bg-cover h-[393px] h">
             <div class="text-center lg:py-50 py-[150px]">
                 <h1 class="lg:text-[50px] text-[20px] font-bold text-white mb-[23px] noto-serif">Join the colorful Bunch</h1>
                 <div class="flex items-center justify-center ">
@@ -280,10 +280,10 @@
             </div>
             <div class="flex text-[#9C9D9F] ">
                 <ul class="flex flex-col gap-8">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">FAQ</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#shop">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
@@ -296,7 +296,7 @@
                     <li><a href="">Help Center</a></li>
                 </ul>
             </div>
-            <div class="flex gap-6 ">
+            <div id="about-us" class="flex gap-6 ">
                 <img class="w-[36px] h-[36px]" src="./assets/icon-linkedin.png" alt="">
                 <img class="w-[36px] h-[36px]" src="./assets/icon-twitter.png" alt="">
                 <img class="w-[36px] h-[36px]" src="./assets/icon-facebook.png" alt="">
